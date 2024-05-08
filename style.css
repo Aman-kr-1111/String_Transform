@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #444;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.input-data {
+  width: 98%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #666;
+  color: #fff;
+  font-size: 20px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+legend {
+  padding: 5px 10px;
+  background-color: #555;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+}
+
+span {
+  font-size: 18px;
+}
